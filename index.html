@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Your custom CSS styles here */
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+            <div class="logo">
+                <img src="./img/lambologo.png" alt="Lamborghini Logo">
+                </div>
+                </a>
+        
+    
+        
+        <nav>
+            <ul>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#">Beyond</a></li>
+                <li><a href="#">Ownership</a></li>
+                <li><a href="#">Motorsport</a></li>
+            </ul>
+        </nav>
+
+        <div class="shopping">
+            <img src="./img/shopping.svg" alt="Shopping Cart">
+            <span class="quantity">0</span>
+        </div>
+    </header>
+    <div class="video">
+        <h2>EXPECT THE</h2>
+        <h1>UNEXPECTED</h1>
+
+        <video autoplay loop muted class="back-video"> 
+            <source src="./img/lambovid.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div id="models" class="banner">
+        <div class="banner-overlay"></div>
+    </div>
+    <div class="car-container">
+        <div class="revuelto">
+            <!-- Content for Revuelto -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Logo_Lamborghini_Revuelto.svg/1200px-Logo_Lamborghini_Revuelto.svg.png" alt="Lamborghini Revuelto Logo">
+        </div>
+        <div class="huracan">
+            <!-- Content for Huracan -->
+            <img src="./img/huracan.png">
+        </div>
+        <div class="aventador">
+            <!-- Content for Aventador -->
+            <img src="https://logodix.com/logo/1675575.png">
+        </div>
+        <div class="countach">
+            <!-- Content for Aventador -->
+            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/gateway-family/few-off/countach/Countach_LPI800-4_logo_0.png" width="400px">
+        </div>
+        <div class="sian">
+            <!-- Content for Aventador -->
+            <img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/gateway-family/limited-series/sian%20roadster.png" width="400px">
+        </div>
+        <div style="display: flex; justify-content: center; align-items: center; height: 10vh;">
+            <img src="https://www.cdnlogo.com/logos/l/5/lamborghini-miura.svg" width="300px">
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center; height: 10vh;">
+            <img src=" https://upload.wikimedia.org/wikipedia/commons/c/cb/Logo_Lamborghini_Urus.svg" width="300px">
+        </div>
+
+        <div style="display: flex; justify-content: center; align-items: center; height: 10vh;">
+            <img src=" https://iconape.com/wp-content/files/nb/162994/svg/162994.svg" width="300px">
+        </div>
+
+
+        
+
+     
+        
+
+        
+
+
+        
+    </div>
+
+    <div  class="list">
+        <!-- Your list content here -->
+    </div>
+    <div id="pagination">
+        <button id="prevPage" disabled>Previous Page</button>
+        <button id="nextPage">Next Page</button>
+        <span id="pageNumber"></span> <!-- New element to display the page number -->
+        <input type="number" id="pageNumberInput" min="1" value="1" onkeydown="handleKeyDown(event)">
+        <button id="goToPage">Go To Page</button>
+    </div>
+</div>
+
+<div class="card">
+    <h1>Deals</h1>
+    <ul class="listCard">
+        <!-- Your list card content here -->
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+<script>
+    // Your JavaScript code here
+</script>
+
+</body>
+</html>
